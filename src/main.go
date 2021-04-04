@@ -33,6 +33,7 @@ const (
 	pwsh        = "pwsh"
 	fish        = "fish"
 	powershell5 = "powershell"
+	shelly      = "shelly"
 )
 
 type args struct {
@@ -51,6 +52,9 @@ type args struct {
 	Eval          *bool
 	Init          *bool
 	PrintInit     *bool
+	ExportPNG     *bool
+	Author        *string
+	FileName      *string
 }
 
 func main() {
@@ -115,6 +119,18 @@ func main() {
 			"print-init",
 			false,
 			"Print the shell initialization script"),
+		ExportPNG: flag.Bool(
+			"export-png",
+			false,
+			"Create an image based on the current configuration"),
+		Author: flag.String(
+			"author",
+			"",
+			"Add the author to the exported image using --export-img"),
+		FileName: flag.String(
+			"file-name",
+			"out.png",
+			"The file name of the exported image using --export-img"),
 	}
 	flag.Parse()
 	env := &environment{}
@@ -170,10 +186,19 @@ func main() {
 	}
 
 	if *args.Debug {
-		engine.debug()
+		fmt.Print(engine.debug())
 		return
 	}
-	engine.render()
+	prompt := engine.render()
+	if !*args.ExportPNG {
+		fmt.Print(prompt)
+		return
+	}
+	imageCreator := NewImageRenderer(prompt, *args.Author)
+	err := imageCreator.SavePNG(*args.FileName)
+	if err != nil {
+		fmt.Print(err.Error())
+	}
 }
 
 func initShell(shell, configFile string) string {
