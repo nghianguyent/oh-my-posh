@@ -4,12 +4,12 @@
 nghianguyent/oh-my-posh is built on the following main stack:
 
 - [Golang](http://golang.org/) – Languages
-- [React](https://reactjs.org/) – Javascript UI Libraries
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [React](https://reactjs.org/) – Javascript UI Libraries
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Testify](https://github.com/stretchr/testify) – Go Testing
 - [PowerShell](https://docs.microsoft.com/en-us/powershell/) – Shells
 - [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [Testify](https://github.com/stretchr/testify) – Go Testing
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
 
@@ -20,12 +20,12 @@ Full tech stack [here](/techstack.md)
 nghianguyent/oh-my-posh is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/1005/O6AczwfV_400x400.png' alt='Golang'/> [Golang](http://golang.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/8695/stretchr.png' alt='Testify'/> [Testify](https://github.com/stretchr/testify) – Go Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/3681/powershell-logo.png' alt='PowerShell'/> [PowerShell](https://docs.microsoft.com/en-us/powershell/) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/service/8695/stretchr.png' alt='Testify'/> [Testify](https://github.com/stretchr/testify) – Go Testing
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
 
@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nghianguyent/oh-my-posh](https://github.com/nghianguyent/oh-my-posh)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|25<br/>Tools used|01/27/24 <br/>Report generated|
+|25<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
